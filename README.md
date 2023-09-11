@@ -1,5 +1,6 @@
 # python-template
- A conda based template for easy setup of reproducible repos integrating Flipside data & Python for data science
+ A conda based template for easy setup of reproducible repos integrating Flipside data & Python for data science.
+
  We recommend the lightweight miniconda: https://docs.conda.io/projects/miniconda/en/latest/ alongside VSCode with Jupyter & Python plugins.
 
 # Reproduce 
@@ -18,7 +19,8 @@ The environment yml includes installs for flipside, numpy, pandas, and plotly, a
 # Flipside API 
 
 You can generate API keys to bring SQL queries from the data studio into Python 
-via the flipside package. This repo includes it in the environment for you.
+via the flipside package. This repo includes it in the environment for you. Note: API Keys are capped at a free 5,000 query seconds/month.
+ So it is recommended you write your queries in the (free) Studio first, and then bring the polished query into Python once it runs as expected.
 
 Relatedly, keep our docs handy as you work with data from Flipside. 
 
