@@ -8,7 +8,7 @@
 1. Clone this repo. I use GitHub Desktop, you can grab the URL to clone in that app, or use `git clone https://github.com/fsc-data-science/python-template.git`
 2. Create a txt file called `api_key.txt` and place your API key (you can create one via the API page when logged into Flipside: https://flipsidecrypto.xyz/account/api-keys )
 3. Open miniconda3  and move to your cloned directory `cd YourLocationHere/python-template`
-4. In Conda create a new environment using the provided environment.yml file: `conda env create -f environment.yml` and optionally 
+4. In Conda create a new environment using the provided environment.yml file: `conda env create -f environment.yml` and optionally rename with `--name new_conda_name`
 
 The environment yml includes installs for flipside, numpy, pandas, and plotly, alongside this python-template environment name and python 3.10.9
 
