@@ -16,6 +16,8 @@ The environment yml includes installs for flipside, numpy, pandas, and plotly, a
 6. Run the analysis script `hello-flipside.py` using your `python-template` Kernel. If you create an interactive HTML file (`candlestick_chart.html`) it worked! (Open in browser to see the eth volume weighted average price candle chart over the last 30 days).
 7. You can restart your git history, rename the directory, and/or clone & replace the conda with `conda create --name new_environment_name --clone python-template` 
 
+8. As you work with your own repos and environments, use `conda env export > environment.yml` to manage new package installations and ensure reproducibility for those who clone your repos!
+
 # Flipside API 
 
 You can generate API keys to bring SQL queries from the data studio into Python 
