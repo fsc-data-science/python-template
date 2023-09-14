@@ -5,6 +5,7 @@
 
 # Use as a Template for a new Repo
 
+~10 min video review of this process available here: https://www.loom.com/share/Using-the-Python-Template-for-Reproducible-Data-Science-2c524ce317394dc7884cc8927b524910?sid=1fe0d3f8-ef3a-464c-9365-bdf220dcbf31
 1. Clone this repo.
 2. Change the folder name to your desired repo name.
 3. Inside the  `environment.yml` there is a name parameter, rename it to your desired repo name.
