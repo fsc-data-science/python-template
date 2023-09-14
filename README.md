@@ -3,6 +3,21 @@
 
  We recommend the lightweight miniconda: https://docs.conda.io/projects/miniconda/en/latest/ alongside VSCode with Jupyter & Python plugins.
 
+# Use as a Template for a new Repo
+
+1. Clone this repo.
+2. Change the folder name to your desired repo name.
+3. Change the `environment.yml` name to your desired repo name.
+4. delete the (possibly hidden) .git folder to remove the commit history.
+5. Create a git repo for this folder (e.g., using GitHub Desktop). You can keep the same gitignore, license, README as the template or replace them. But if you replace, ensure you protect your API keys.
+6. Open miniconda and navigate to your folder `cd ...Documents/yourNewFolderName`
+7. Restore the conda environment `conda env create -f environment.yml` this will use the new name you placed in the environment.yml file.
+8. Activate the environment `conda activate yourEnvName`
+9. Open the folder in VS Code.
+10. Create & place an api_key.txt file with your key in the folder (note: ensure it is gitignored).
+11. You can now run hello-flipside.py interactively (ensure you switch to your Conda yourEnvName Kernel to access the packages).
+12. Use  `conda env export > environment.yml` to add new packages as you work from the template & your new repo.
+
 # Reproduce 
 
 1. Clone this repo. I use GitHub Desktop, you can grab the URL to clone in that app, or use `git clone https://github.com/fsc-data-science/python-template.git`
