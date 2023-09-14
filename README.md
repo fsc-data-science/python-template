@@ -7,7 +7,7 @@
 
 1. Clone this repo.
 2. Change the folder name to your desired repo name.
-3. Change the `environment.yml` name to your desired repo name.
+3. Inside the  `environment.yml` there is a name parameter, rename it to your desired repo name.
 4. delete the (possibly hidden) .git folder to remove the commit history.
 5. Create a git repo for this folder (e.g., using GitHub Desktop). You can keep the same gitignore, license, README as the template or replace them. But if you replace, ensure you protect your API keys.
 6. Open miniconda and navigate to your folder `cd ...Documents/yourNewFolderName`
